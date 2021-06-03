@@ -2,12 +2,13 @@
 
 ### a) Write a Java method with the signature
 
-
+```java
 public static Vector union (Vector a, Vector b)
+```
 
-
-The method should return a Vector of objects that are in either
+### The method should return a Vector of objects that are in either
 of the two argument Vector
+
 ``` java
 import java.util.Vector;
 
