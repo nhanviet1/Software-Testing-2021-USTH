@@ -1,5 +1,13 @@
-# Ex 1.4:
-### a)
+# Ex 1.4: The following exercise is intended to encourage you to think of testing in a more rigorous way than you may be used to. The exercisealso hints at the strong relationship between specification clarity, faults, and test cases
+
+### a) Write a Java method with the signature
+
+
+public static Vector union (Vector a, Vector b)
+
+
+The method should return a Vector of objects that are in either
+of the two argument Vector
 ``` java
 import java.util.Vector;
 
