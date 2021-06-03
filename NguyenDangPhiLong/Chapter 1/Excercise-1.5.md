@@ -1,5 +1,5 @@
 # Ex1.5: . Below are four faulty programs. Each includes test inputs that result in failure. Answer the following questions about each program
-## findLast
+## 1.findLast
 ### a) Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
 
 * Describe: i variable must run in range (0, length). Given (1, length) 
