@@ -1,3 +1,6 @@
+# Exercise 3.3
+## TestBoundedQueue()
+```Java
 package com.company;
 
 import org.junit.Test;
@@ -53,5 +56,8 @@ public class TestBoundedQueue {
 
         assertEquals("[Lu, Khanh, Huyen]", queue.toString());
     }
-
 }
+```
+
+## Result
+![alt text][Ex3-3.png]

@@ -1,4 +1,5 @@
 # Exercise 3.5
+## Find the flaw and describe it in terms of the RIPR model. 
 ```Java
 @Test
 public void testSort()

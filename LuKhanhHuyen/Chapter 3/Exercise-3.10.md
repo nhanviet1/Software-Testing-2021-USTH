@@ -1,5 +1,6 @@
 # Exercise 3.10
-## ListTheoryTest.java
+## Replace each occurrence of a set with a list in the JUnit theory <span style="font-family:Courier">removeThenAddDoesNotChangeSet</span>. Is the resulting theory valid or invalid? How many of the tests that pass the precondition also pass the postcondition? Explain.
+### ListTheoryTest.java
 ```Java
 import org.junit.*;
 import org.junit.runner.RunWith;
@@ -40,7 +41,7 @@ public class ListTheoryTest
 }
 ```
 
-## SetTheoryTest.java
+### SetTheoryTest.java
 ```Java
 import org.junit.*;
 import org.junit.runner.RunWith;

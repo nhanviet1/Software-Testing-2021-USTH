@@ -1,3 +1,7 @@
+# Exercise 3.8
+## Develop a set of data-driven JUnit tests for the <span style="font-family:Courier">Min</span> program. These tests should be for normal, not exceptional, returns. Make your <span style="font-family:Courier">@Parameters</span> method produce both String and Integer values.
+
+```Java
 package com.company;
 
 import org.junit.*;
@@ -66,3 +70,4 @@ public class TestMin {
         assertEquals("Double Element List", "Huyen", obj);
     }
 }
+```
