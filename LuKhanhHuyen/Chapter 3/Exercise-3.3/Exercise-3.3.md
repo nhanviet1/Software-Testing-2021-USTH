@@ -60,4 +60,4 @@ public class TestBoundedQueue {
 ```
 
 ## Result
-![title](Exercise-3.3/Ex3-3.png)
+![title](Ex3-3.png)
