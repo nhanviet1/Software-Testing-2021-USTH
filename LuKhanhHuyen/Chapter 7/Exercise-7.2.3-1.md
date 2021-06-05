@@ -30,7 +30,8 @@
   - dup3 [3,5,3]
   - dup4 [3,4,5,3]
 
-* Graph 3: No ending nodes. Cannot generate a set of test paths to satisfy the coverage.
+* Graph 3:
+No ending nodes. Cannot generate a set of test paths to satisfy the coverage.
 
 * Graph 4:
   - dup1 [1,2,6]

@@ -26,6 +26,7 @@ t5 = f1 (3, 4)
 
 ## Answer
 ### a) Draw the call graph for this program fragment.
+
 ![title](Ex7.4-3.png)
 
 ### b) Give the path in the graph followed by each test.
