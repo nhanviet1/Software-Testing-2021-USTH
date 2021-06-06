@@ -1,7 +1,6 @@
-##(a) Does T1 necessarily satisfy C2? Explain.
-##(b) Does T2 necessarily satisfy C1? Explain.
-##(c) If P contains a fault, and T2 reveals the fault, T1 does not
-necessarily also reveal the fault. Explain.
+# (a) Does T1 necessarily satisfy C2? Explain.
+# (b) Does T2 necessarily satisfy C1? Explain.
+# (c) If P contains a fault, and T2 reveals the fault, T1 does not necessarily also reveal the fault. Explain.
 
 Answer Key:
 A:Yes T1 necessarily satisfy C2 as This follows directly from 
