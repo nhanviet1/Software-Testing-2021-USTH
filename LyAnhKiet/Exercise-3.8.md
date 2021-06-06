@@ -1,5 +1,8 @@
 Exercise 3.8
 
+Develop a set of data-driven JUnit tests for the Min program. Thesetests should be for normal, not exceptional, returns. Make your @Parameters method produce both String and Integer values.
+
+
 ```Java
 
 import java.util.*;
