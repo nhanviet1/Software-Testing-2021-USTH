@@ -1,7 +1,8 @@
 # Exercise 1.7
 
 ## Vehicle, Truck
-### a)
+### a) Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
+
 The method clone() inside class Truck cannot use the clone() method of class Vehicle. One of possible modification is:
 ```Java
 public class Vehicle implements Cloneable
@@ -44,14 +45,14 @@ public class Truck extends Vehicle {
 }
 ```
 
-### b)
+### b) If possible, give a test case that does not execute the fault. If not, briefly explain why not.
 A test case that does not execute the fault in simply does not call the method Truck.equals()
 
-### c)
+### c) If possible, give a test case that executes the fault, but does notresult in an error state. If not, briefly explain why not.
 A test case that executes the fault in but does not create result in an error state does not create an instance of a subclass.
 
 ## BigDecimalTest
-### a)
+### a) Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
 The fault is the inconsistency between methods compareTo() and equals(). One of possible modification is:
 ```Java
 import static org.junit.Assert.*;
@@ -77,8 +78,8 @@ public class BigDecimalTest {
 }  
 ```
 
-### b)
+### b) If possible, give a test case that does not execute the fault. If not, briefly explain why not.
 No test case that can not execute the fault.
 
-### c)
+### c) If possible, give a test case that executes the fault, but does notresult in an error state. If not, briefly explain why not.
 A test case that executes the fault but does not create result in an error state is 1.00 and 2.00.
