@@ -26,6 +26,7 @@ t5 = f1 (3, 4)
 
 ## Answer
 ### a) Draw the call graph for this program fragment.
+
 ![title](Ex7.4-3.png)
 
 ### b) Give the path in the graph followed by each test.
@@ -37,19 +38,28 @@ t5 = f1 (3, 4)
 
 ### c) Find a minimal test set that achieves Node Coverage.
 [3,5,6]
+
 [1,2,3,4,6]
+
 -> {t1, t2, t3}, {t1, t3, t4}, or {t1, t5}
 
 ### d) Find a minimal test set that achieves Edge Coverage.
 [3,5,6]
+
 [1,3,4,6]
+
 [1,2,3,4,6]
+
 -> {t1, t5}
 
 ### e) Give the prime paths in the graph. Which prime path is not covered by any of the tests above?
 TR Prime path:
 [1,2,3,4,6]
+
 [1,2,3,5,6]
+
 [1,3,4,6]
+
 [1,3,5,6]
+
 -> [1,2,3,5,6]
