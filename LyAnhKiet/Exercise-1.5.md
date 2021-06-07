@@ -1,6 +1,38 @@
 Exercise 1.5
 
-* Program 1
+Below are four faulty programs. Each includes test inputs that result in failure. Answer the following questions about each program.
+
+(a) Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
+
+(b) If possible, give a test case that does not execute the fault. If not, briefly explain why not.
+
+(c) If possible, give a test case that executes the fault, but does not result in an error state. If not, briefly explain why not.
+
+(d) If possible give a test case that results in an error, but not a failure. If not, briefly explain why not. Hint: Don’t forget about the program counter.
+
+(e) For the given test case, describe the first error state. Be sure to describe the complete state.
+
+(f) Implement your repair and verify that the given test now produces the expected output. Submit a screen printout or other evidence that your new program works.
+
+# Program 1
+
+## findLast()
+```Java
+// findLast()
+
+public static int findLast (int[] x, int y)
+   {
+      // As the example in the book points out, this loop should end at 0.
+      for (int i=x.length-1; i > 0; i--)
+      {
+         if (x[i] == y)
+         {
+            return i;
+         }
+      }
+      return -1;
+   }
+```
 
 a, Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
 
@@ -29,7 +61,24 @@ c, If possible, give a test case that executes the fault, but does not result in
 x = [1,1,1]
 y = 1
 
-* Program 2
+# Program 2
+
+## lastZero
+```Java
+// lastZero()
+
+public static int lastZero (int[] x)
+   {
+      for (int i = 0; i < x.length; i++)
+      {
+         if (x[i] == 0)
+         {
+            return i;
+         }
+      }
+      return -1;
+   }
+```
 
 a, Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
 This program intended to return the last index of 0 in an array x. However, it returns the index of the first 0 found.  
@@ -57,7 +106,26 @@ x = [0, 1, 2]
 c, If possible, give a test case that executes the fault, but does not result in an error state. If not, briefly explain why not.
 x = [0]
 
-* Program 3
+# Program 3
+
+## countPositive
+```Java
+// countPositive()
+
+public static int countPositive (int[] x)
+   {
+      int count = 0;
+
+      for (int i=0; i < x.length; i++)
+      {
+         if (x[i] >= 0)
+         {
+            count++;
+         }
+      }
+      return count;
+   }
+```
 
 a, Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
 This program intended to count positive elements of an array x. However, it also counts 0.  
@@ -84,7 +152,28 @@ x = [-2, 4, -6]
 c, If possible, give a test case that executes the fault, but does not result in an error state. If not, briefly explain why not.
 Not possible
 
-* Program 4
+# Program 4
+
+## oddOrPos
+```Java
+// oddOrPos()
+
+public static int oddOrPos (int[] x)
+   {  // Effects:  if x is null throw NullPointerException
+      // else return the number of elements in x that
+      //      are either odd or positive (or both)
+      int count = 0;
+
+      for (int i = 0; i < x.length; i++)
+      {
+         if (x[i]%2 == 1 || x[i] > 0)
+         {
+            count++;
+         }
+      }
+      return count;
+   }
+```
 
 a, Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
 This program intended to count positive and odd elements of an array x. However, it also counts 0.  
@@ -101,6 +190,5 @@ else
 b, If possible, give a test case that does not execute the fault. If not, briefly explain why not.
 x = [1, 2, 3]
 
-c, 
 c, If possible, give a test case that executes the fault, but does not result in an error state. If not, briefly explain why not.
 x = [1, 2, 3]
