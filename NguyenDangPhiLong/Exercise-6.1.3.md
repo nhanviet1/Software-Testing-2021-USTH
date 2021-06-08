@@ -1,4 +1,4 @@
-# Exercise 6.2.1
+# Exercise 6.2.3
 
 ## Write down all 64 tests to satisfy the All Combinations (ACoC) criterion for the second categorization of triang()’s inputs in Table 6.2. Use the values in Table 6.3.
 ### Code
