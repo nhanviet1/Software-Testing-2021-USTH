@@ -13,7 +13,7 @@ Also consider the following (candidate) test paths:
 - p5 = [1, 2, 3, 2, 3]
 
 ## Graph:
-![tilte][Untitled-3.png]
+![Graph1](Untitled-3.png)
 
 ### a) Which of the listed paths are test paths? For any path that is not a test path, explain why not.
 * p1 and p4 are not test paths because they neither start at 1 nor end at 3.
