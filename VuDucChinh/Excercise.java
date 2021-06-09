@@ -74,16 +74,5 @@ public class Excercise {
         int[] oddOrPos = {-3,-2,0,1,4};
         System.out.println("oddOrPos method result :"+oddOrPos(oddOrPos));
 
-        int n = 6;
-        int m = 8;
-        Vector<Integer> b = new Vector<>(n);
-        for (int i = 1; i <= n; i++) {
-            b.add(i);
-        }
-        Vector<Integer> c = new Vector<>();
-        for (int i = 1; i <= m; i++) {
-            c.add(i);
-        }
-        System.out.println(union(b,c));
     }
 }
